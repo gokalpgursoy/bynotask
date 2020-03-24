@@ -59,7 +59,6 @@ export default {
       );
       this.items = response.data;
       this.rowCount = Math.ceil(response.data.length / this.itemCount);
-      console.log(this.rowCount, this.items);
     }
   }
 };
