@@ -60,7 +60,7 @@ export default {
     border-bottom: 1px solid white
     // padding-bottom: 5px
   img
-    background-color: #343a40
+    background-color: #f7f7f7
     height: 200px
     object-fit: contain
   sizes
