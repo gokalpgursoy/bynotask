@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>home</h1>
+
   </div>
 </template>
 
@@ -11,3 +11,11 @@ export default {
   name: 'Home',
 }
 </script>
+
+<style lang="sass" scoped>
+@import  '../assets/sass/variables.sass'
+
+.home
+  color: purple
+  height: 100vh - ($header-height + $footer-height)
+</style>
