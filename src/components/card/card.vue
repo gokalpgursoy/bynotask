@@ -57,9 +57,12 @@ export default {
     width: 100%
     background-color: #343a40
     text-align: center
+    border-bottom: 1px solid white
+    // padding-bottom: 5px
   img
+    background-color: #343a40
     height: 200px
-    object-fit: cover
+    object-fit: contain
   sizes
     position: absolute
     width: 100%
