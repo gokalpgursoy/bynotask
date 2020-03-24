@@ -1,9 +1,7 @@
 <template>
-  <footer class="navbar navbar-dark bg-dark">
-    <span class="w-100 text-light text-right">
-      March 2020
-    </span>
-  </footer>
+  <div class="footer bg-dark text-light d-flex align-items-center justify-content-center">
+    <p>March 2020</p>
+  </div>
 </template>
 
 <script>
@@ -15,6 +13,10 @@ export default {
 <style lang="sass" scoped>
 @import  '../../assets/sass/variables.sass'
 
-footer
+.footer
   height: $footer-height
+  position: fixed
+  left: 0
+  bottom: 0
+  width: 100%
 </style>
