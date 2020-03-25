@@ -6,6 +6,8 @@ Beside that you can change have you want to see how many item for a row using gr
 
 [Link](https://bynotask.surge.sh/)
 
+![](bynotask.png)
+
 ## Technologies
 * Vue JS
 * Vue Router
